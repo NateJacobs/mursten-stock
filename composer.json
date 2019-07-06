@@ -1,0 +1,43 @@
+{
+    "name": "natejacobs/mursten-stock",
+    "type": "library",
+    "description": "A Bricklink API client for stores.",
+    "keywords": [
+        "natejacobs",
+        "lego",
+		"bricklink",
+		"store"
+    ],
+    "homepage": "https://github.com/natejacobs/mursten-stock",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nate Jacobs",
+            "email": "nate@ngtj.com",
+            "homepage": "https://ngtj.com",
+            "role": "Developer"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.0",
+		"guzzlehttp/oauth-subscriber": "0.3.*",
+		"guzzlehttp/guzzle": "~6.0",
+        "nesbot/carbon": "^2.6",
+        "vlucas/phpdotenv": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NateJacobs\\MurstenStock\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NateJacobs\\MurstenStock\\": "tests"
+        }
+    }
+}
