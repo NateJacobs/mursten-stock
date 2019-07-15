@@ -16,7 +16,7 @@ class Client
 		];
 
 		if(is_null($auth_params)) {
-			throw new AuthException('Missing bricklink API authenication parameters.');
+			throw new AuthException('Missing Bricklink API authenication parameters.');
 		}
 
 		if(false === is_array($auth_params)) {
@@ -24,7 +24,7 @@ class Client
 		}
 
 		if(false === $this->array_keys_exists($keys, $auth_params)) {
-			throw new AuthException('Missing bricklink API authenication parameters.');
+			throw new AuthException('Missing Bricklink API authenication parameters.');
 		}
 
 		$this->auth = $auth_params;
