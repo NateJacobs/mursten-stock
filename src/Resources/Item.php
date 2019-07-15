@@ -3,8 +3,8 @@
 namespace NateJacobs\MurstenStock\Resources;
 
 use NateJacobs\MurstenStock\Request;
-use NateJacobs\MurstenStock\Response\Item as ItemResponse;
-use NateJacobs\MurstenStock\Response\Category as CategoryResponse;
+use NateJacobs\MurstenStock\Responses\Item as ItemResponse;
+use NateJacobs\MurstenStock\Responses\Category as CategoryResponse;
 use NateJacobs\MurstenStock\Exceptions\MissingParamsException;
 
 class Item extends Request

@@ -4,7 +4,7 @@ namespace NateJacobs\MurstenStock\Resources;
 
 use NateJacobs\MurstenStock\Request;
 use NateJacobs\MurstenStock\Exceptions\MissingParamsException;
-use NateJacobs\MurstenStock\Response\Feedback as FeedbackResponse;
+use NateJacobs\MurstenStock\Responses\Feedback as FeedbackResponse;
 
 class Feedback extends Request
 {

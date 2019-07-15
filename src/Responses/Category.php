@@ -1,6 +1,6 @@
 <?php
 
-namespace NateJacobs\MurstenStock\Response;
+namespace NateJacobs\MurstenStock\Responses;
 
 class Category
 {

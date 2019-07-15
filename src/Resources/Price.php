@@ -3,7 +3,7 @@
 namespace NateJacobs\MurstenStock\Resources;
 
 use NateJacobs\MurstenStock\Request;
-use NateJacobs\MurstenStock\Response\Price as PriceResponse;
+use NateJacobs\MurstenStock\Responses\Price as PriceResponse;
 use NateJacobs\MurstenStock\Exceptions\MissingParamsException;
 
 class Price extends Request
