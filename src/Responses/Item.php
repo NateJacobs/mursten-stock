@@ -12,6 +12,7 @@ class Item
 		$this->type = $this->setType($item);
 		$this->image = $this->setImageURLs($item);
 		$this->yearReleased = $item->year_released;
+		$this->dimensions = $this->setDimensions($item);
 		$this->description = isset($item->description) ? $item->description : '';
 		$this->isObsolete = $item->is_obsolete;
 
