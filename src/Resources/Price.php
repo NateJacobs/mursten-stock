@@ -25,11 +25,10 @@ class Price extends Request
 
 		if (is_array($options)) {
 			$options = array_merge( $defaults, $options );
-			$options_string = http_build_query($options, '', '&');
 		}
 
 		try {
-			return $this->createReturnObject($this->request('get', 'items'.'/'.$type.'/'.$id.'/price?'.$options_string));
+			return $this->createReturnObject($this->request('get', 'items'.'/'.$type.'/'.$id.'/price', $options));
 		} catch(\Exception $e) {
 			return $e;
 		}
