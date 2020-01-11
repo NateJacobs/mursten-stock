@@ -18,7 +18,7 @@ class Price
 
 	private function setPrices($price)
 	{
-		$formatter = new \NumberFormatter(setlocale(LC_MONETARY, 0), \NumberFormatter::CURRENCY);
+		$formatter = new \NumberFormatter('en_US', \NumberFormatter::CURRENCY);
 
 		$price_array = [
 			'averagePrice' => $formatter->formatCurrency(
