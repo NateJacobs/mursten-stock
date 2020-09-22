@@ -21,7 +21,7 @@
 	"minimum-stability": "dev",
     "require": {
         "php" : ">=7.0",
-		"guzzlehttp/oauth-subscriber": "0.3.*",
+		"guzzlehttp/oauth-subscriber": "0.4.*",
 		"guzzlehttp/guzzle": "~7.0.1",
         "nesbot/carbon": "^2.6",
         "vlucas/phpdotenv": "^5.2"
